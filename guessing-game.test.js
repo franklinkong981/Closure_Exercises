@@ -25,7 +25,7 @@ describe("guessingGame", function() {
   it("tells you when your guess is correct, along with the number of guesses.", function() {
     game(55);
     game(65);
-    expect(game(60)).toBe("You win! You found 60 in 3 guesses.");
+    expect(game(60)).toBe("You win! The correct number is 60 and you found it in 3 guesses!");
   });
 
   it("stops you from guessing when the game is over", function() {
